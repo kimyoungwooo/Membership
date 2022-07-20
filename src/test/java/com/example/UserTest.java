@@ -27,8 +27,8 @@ class UserTest {
 	
 	@Test
 	public void test1() {
-		UserVo user = this.userService.selectUser("chulsu");
-		assertEquals("박철수", user.getName());
+		UserVo user = this.userService.selectUser("jimin");
+		assertEquals("한지민", user.getName());
 		System.out.println(user);
 	}
 	
